@@ -1,8 +1,6 @@
 	body, html {margin: 0;}
 	body{ background-image: url("assets/images/spiration-light.png");
 		}
-	body{ background-image: url("assets/images/spiration-light.png");
-		}
 	h2 {font-family: 'Georgia', Times, Times New Roman, serif;
 		color: #4aaaa5;
 		}
@@ -93,5 +91,3 @@
 	.portim{width:280px;
 			height: 200px;
 			margin: 0 0 50px 30px}
-	body{ background-image: url("assets/images/spiration-light.png");
-		}
