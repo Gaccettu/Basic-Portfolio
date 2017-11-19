@@ -3,6 +3,9 @@
 		}
 	h2 {font-family: 'Georgia', Times, Times New Roman, serif;
 		color: #4aaaa5;
+		border-bottom: solid;
+		border-bottom-color: #777777;
+		padding-bottom: 8px;
 		}
 	h3{font-family: 'Georgia', Times, Times New Roman, serif;
 		color: #4aaaa5}
@@ -19,7 +22,22 @@
 				padding-top: 20px}
 	input{width: 400px
 	}
-	#message{height: 300px}
+	form{	padding-left: 30px;
+			color:#777777;
+			 }
+	#message{height: 300px;
+		margin-top: 5px;
+			}
+	#button{background-color: #4aaaa5;
+			color: white;
+			font-size: 20px;
+			padding: 9px;
+			margin-top: 10px;
+			margin-left:30px;
+			display: inline-block;
+		}
+	.entry{margin-top: 5px;
+			margin-bottom: 5px}
 	.header {height: 48px;
 		   background-color: #666666;
 		   right: 0;
@@ -40,21 +58,20 @@
 			padding: 10px;
 			border-style: solid;
 			border-color: #ffffff;
-			margin-left: 870px;
-			margin-right: 180px;
+			margin-right: 10%;
 			background-color: white;
 			margin-top: 30px;
 			border-style:solid;
-		border-width: 2px;
-		border-color: #666666;
+			border-width: 2px;
+			border-color: #666666;
 		}
-	.main {position: absolute;
+	.main {float: left;
 		margin-top: 30px;
 		width: 650px;
 		border-style: solid;
 		border-color: #ffffff;
-		padding: 20px;
-		margin-left: 180px;
+		padding: 40px;
+		margin-left: 10%;
 		background-color: white;
 		border-style:solid;
 		border-width: 2px;
@@ -62,7 +79,7 @@
 		}
 	.bottom {text-align: center;
 			position: fixed;
-			height: 60px;
+			height: 40px;
 			right: 0;
 			left: 0;
 			bottom: 0;
@@ -71,23 +88,23 @@
 			border-top-color: #4aaaa5;
 			border-top-width: 5px;
 			color: white;
+			padding-top: 15px;
 			}
 	.top {background-color: #4aaaa5;
 		color: white;
 		font-size: 30px;
-		padding: 7px;
-		margin-left: 180px;
+		padding: 9px;
+		margin-left: 10%;
 		float: left;
-		width: content;
 		  }
-	.nav{position: absolute;
-		right: 20px;
-		margin-right: 200px;
-		margin-left: 870px;
+	.nav{float: right;
+		margin-right: 15%;
+		margin-top: 12px;
 		}
 	.icon{height: 60px;
 		  width: 60px;
 		  }
 	.portim{width:280px;
 			height: 200px;
-			margin: 0 0 50px 30px}
+			margin: 0 0 50px 0;
+		}
